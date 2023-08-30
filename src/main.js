@@ -22,7 +22,7 @@ var gameSettings = {
     platformGapMin: 130,
     platformGapMax: 240,
     propDensity: 1,
-    enemySpawnFrequency: 5, // every Nth platform
+    enemySpawnFrequency: 2, // every Nth platform
     enemySpawnChance: 100, // in percent
     itemSpawnChance: 50, // in percent, but only if no enemy
     // misc
