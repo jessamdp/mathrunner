@@ -1,0 +1,92 @@
+[
+    {
+        "question": "What is the sum of the angles in a triangle?",
+        "correct": "180 degrees",
+        "wrong": [
+            "90 degrees",
+            "270 degrees",
+            "360 degrees"
+        ]
+    },
+    {
+        "question": "A polygon with eight sides is called:",
+        "correct": "Octagon",
+        "wrong": [
+            "Hexagon",
+            "Decagon",
+            "Pentagon"
+        ]
+    },
+    {
+        "question": "If two angles of a triangle are 45 degrees and 60 degrees,\nwhat is the measure of the third angle?",
+        "correct": "75 degrees",
+        "wrong": [
+            "45 degrees",
+            "60 degrees",
+            "90 degrees"
+        ]
+    },
+    {
+        "question": "In a right triangle, the side\nopposite the right angle is called:",
+        "correct": "Hypotenuse",
+        "wrong": [
+            "Adjacent side",
+            "Opposite side",
+            "Equal side"
+        ]
+    },
+    {
+        "question": "What is the formula to calculate the area of a circle?",
+        "correct": "A = πr^2",
+        "wrong": [
+            "A = πr",
+            "A = 2πr",
+            "A = 2r^2"
+        ]
+    },
+    {
+        "question": "What is the volume of a rectangular prism with\nlength 6 cm, width 4 cm, and height 5 cm?",
+        "correct": "120 cm³",
+        "wrong": [
+            "90 cm³",
+            "80 cm³",
+            "30 cm³"
+        ]
+    },
+    {
+        "question": "The Pythagorean theorem relates to a:",
+        "correct": "Right triangle",
+        "wrong": [
+            "Scalene triangle",
+            "Equilateral triangle",
+            "Isosceles triangle"
+        ]
+    },
+    {
+        "question": "What is the sum of the angles in a square?",
+        "correct": "360 degrees",
+        "wrong": [
+            "90 degrees",
+            "180 degrees",
+            "540 degrees"
+        ]
+    },
+    {
+        "question": "The Law of Sines is used to relate:",
+        "correct": "Angles and sides of a triangle",
+        "wrong": [
+            "Corresponding angles of similar triangles",
+            "Ratios of the sides of a right triangle",
+            "Sides of a triangle with its altitude"
+        ]
+    },
+    {
+        "question": "In a right triangle, the longest side is called:",
+        "correct": "Hypotenuse",
+        "wrong": [
+            "Diameter",
+            "Latitude",
+            "Longitude"
+        ]
+    }
+]
