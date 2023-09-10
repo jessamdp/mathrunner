@@ -12,10 +12,10 @@ class Scene2 extends Phaser.Scene {
         this.createProps();
         this.createPlayer();
 
-        this.createTitle(30);
-        this.createLangSelect(90);
-        this.createTopicSelect(130);
-        this.createStartButton(180);
+        this.createTitle(10);
+        this.createLangSelect(65);
+        this.createTopicSelect(100);
+        this.createStartButton(145);
     }
 
     createProps() {
@@ -23,20 +23,20 @@ class Scene2 extends Phaser.Scene {
         createProp(this, "bush", 150);
         createProp(this, "bush", 230);
         createProp(this, "tree2", 190);
-        createProp(this, "rock", 400);
-        createProp(this, "shrooms", 370);
+        createProp(this, "rock", 410);
+        createProp(this, "shrooms", 380);
         createProp(this, "tree", 500);
         createProp(this, "pine", config.width - 20);
     }
 
     createPlayer() {
-        var player = this.add.sprite(config.width / 2 - 32, config.height - 64, "player-idle").setScale(2);
+        var player = this.add.sprite(config.width / 2, config.height - 64, "player-idle").setScale(2);
         player.setScale(2);
         player.play("player-idle_anim");
     }
 
     createTitle(yPos) {
-        var title = this.add.bitmapText(config.width / 2 - 132, yPos, "pixelFont", "MATH RUNNER", 48);
+        var title = this.add.bitmapText(config.width / 2 - 113, yPos, "pixelFont", "MATH RUNNER", 48);
         title.tint = 0x000000;
 
         /*
@@ -80,7 +80,7 @@ class Scene2 extends Phaser.Scene {
     } */
 
     createStartButton(yPos) {
-        var startButton = this.add.image(config.width / 2 - 16, yPos, "start").setScale(0.75);
+        var startButton = this.add.image(config.width / 2, yPos, "start").setScale(0.75);
         startButton.setInteractive();
         startButton.on("pointerdown", function() {
             this.scene.start("playGame");
@@ -88,16 +88,18 @@ class Scene2 extends Phaser.Scene {
     }
 
     createLangSelect(yPos) {
-        var nextLangButton = this.add.image(config.width / 2 + 30, yPos, "arrow").setScale(0.4);
-        var prevLangButton = this.add.image(config.width / 2 - 60, yPos, "arrow").setScale(0.4);
+        var flagX = config.width / 2;
+
+        var nextLangButton = this.add.image(flagX + 45, yPos, "arrow").setScale(0.4);
+        var prevLangButton = this.add.image(flagX - 45, yPos, "arrow").setScale(0.4);
         prevLangButton.flipX = true;
 
         nextLangButton.setInteractive();
         prevLangButton.setInteractive();
 
-        var enFlag = this.add.image(config.width / 2 - 15, yPos, "en").setScale(2);
-        var phFlag = this.add.image(config.width / 2 - 15, yPos, "ph").setScale(2);
-        var deFlag = this.add.image(config.width / 2 - 15, yPos, "de").setScale(2);
+        var enFlag = this.add.image(flagX, yPos, "en").setScale(2);
+        var phFlag = this.add.image(flagX, yPos, "ph").setScale(2);
+        var deFlag = this.add.image(flagX, yPos, "de").setScale(2);
         enFlag.alpha = gameSettings.language == "en" ? 1 : 0;
         phFlag.alpha = gameSettings.language == "ph" ? 1 : 0;
         deFlag.alpha = gameSettings.language == "de" ? 1 : 0;
@@ -196,21 +198,21 @@ class Scene2 extends Phaser.Scene {
         switch(gameSettings.topic) {
             case "inventory":
                 this.topicLabel.text = "Inventory";
-                this.topicLabel.x = config.width / 2 - 88 + 30;
-                this.nextTopicButton.x = config.width / 2 + 54;
-                this.prevTopicButton.x = config.width / 2 - 84;
+                this.topicLabel.x = config.width / 2 - 42;
+                this.nextTopicButton.x = config.width / 2 + 70;
+                this.prevTopicButton.x = config.width / 2 - 68;
                 break;
             case "trigonometry":
                 this.topicLabel.text = "Trigonometry";
-                this.topicLabel.x = config.width / 2 - 88 + 13;
-                this.nextTopicButton.x = config.width / 2 + 70;
-                this.prevTopicButton.x = config.width / 2 - 101;
+                this.topicLabel.x = config.width / 2 - 59;
+                this.nextTopicButton.x = config.width / 2 + 86;
+                this.prevTopicButton.x = config.width / 2 - 85;
                 break;
             case "mdrngeometry":
                 this.topicLabel.text = "Modern Geometry";
-                this.topicLabel.x = config.width / 2 - 88;
-                this.nextTopicButton.x = config.width / 2 + 91;
-                this.prevTopicButton.x = config.width / 2 - 114;
+                this.topicLabel.x = config.width / 2 - 77;
+                this.nextTopicButton.x = config.width / 2 + 102;
+                this.prevTopicButton.x = config.width / 2 - 103;
                 break;
         }
     }
