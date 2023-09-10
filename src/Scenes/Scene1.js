@@ -2,6 +2,7 @@ var languages = ["de", "en", "ph"];
 var audioFiles = ["bgm", "cherry", "correct", "gem", "hurt", "jump", "pause", "unpause", "wrong"];
 var envImageFiles = ["background", "bush", "middleground", "palm", "pine", "plant-house", "rock", "shrooms", "straw-house", "tree", "tree2", "tree-house", "wooden-house"]
 var platformImageFiles = ["grass1", "grass2", "grass3"]
+var uiImageFiles = ["arrow", "start"]
 
 class Scene1 extends Phaser.Scene {
     constructor() {
@@ -30,6 +31,10 @@ class Scene1 extends Phaser.Scene {
         // Platforms
         for (var i = 0; i < platformImageFiles.length; i++) {
             this.loadImage("platforms", platformImageFiles[i]);
+        }
+        // UI        
+        for (var i = 0; i < uiImageFiles.length; i++) {
+            this.loadImage("ui", uiImageFiles[i]);
         }
 
         // Player
