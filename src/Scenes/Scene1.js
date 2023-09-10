@@ -1,4 +1,5 @@
 var languages = ["de", "en", "ph"];
+var topics = ["mdrngeometry", "inventory", "trigonometry"];
 var audioFiles = ["bgm", "cherry", "correct", "gem", "hurt", "jump", "pause", "unpause", "wrong"];
 var envImageFiles = ["background", "bush", "middleground", "palm", "pine", "plant-house", "rock", "shrooms", "straw-house", "tree", "tree2", "tree-house", "wooden-house"]
 var platformImageFiles = ["grass1", "grass2", "grass3"]
@@ -12,8 +13,10 @@ class Scene1 extends Phaser.Scene {
     preload() {
         // Localization
         for (var i = 0; i < languages.length; i++) {
-            this.load.json("questions_" + languages[i], "loc/" + languages[i] + "/questions.json");
             this.loadImage("flags", languages[i]);
+            for (var j = 0; j < topics.length; j++) {
+                this.load.json("questions_" + topics[j] + "_" + languages[i], "loc/" + languages[i] + "/questions." + topics[j] +".json");
+            }
         }
 
         // Font

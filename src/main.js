@@ -5,6 +5,7 @@
 
 var gameSettings = {
     language: "en",
+    topic: "mdrngeometry",
     // score calculation
     scorePerSecond: 300,
     cherryBonus: 1000,

@@ -12,7 +12,8 @@ class Scene3 extends Phaser.Scene {
         this.lastEnemyNames = [];
         this.lastEnemySpawned = "";
 
-        this.questions = Phaser.Utils.Array.Shuffle(this.cache.json.get("questions_" + gameSettings.language));
+        var questionCache = "questions_" + gameSettings.topic + "_" + gameSettings.language;
+        this.questions = Phaser.Utils.Array.Shuffle(this.cache.json.get(questionCache));
         this.questionsIndex = 0;
 
         this.background = this.add.tileSprite(0, 0, config.width, config.height, 'background');
@@ -285,7 +286,8 @@ class Scene3 extends Phaser.Scene {
                     title.destroy();
                     restartLabel.destroy();
                     this.input.removeAllListeners();
-                    this.scene.start("playGame");
+                    this.bgmSound.stop();
+                    this.scene.start("titleScreen");
                 }, this);
             }, [], this);
         }, [], this);        
@@ -326,7 +328,8 @@ class Scene3 extends Phaser.Scene {
                     title.destroy();
                     restartLabel.destroy();
                     this.input.removeAllListeners();
-                    this.scene.start("playGame");
+                    this.bgmSound.stop();
+                    this.scene.start("titleScreen");
                 }, this);
             }, [], this);
         }, [], this);
