@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Was ist die Summe der Winkel in einem Dreieck?",
+        "correct": "180 Grad",
+        "wrong": [
+            "90 Grad",
+            "270 Grad",
+            "360 Grad"
+        ]
+    },
+    {
+        "question": "Ein Polygon mit acht Seiten heißt:",
+        "correct": "Oktagon",
+        "wrong": [
+            "Hexagon",
+            "Decagon",
+            "Pentagon"
+        ]
+    },
+    {
+        "question": "Wenn zwei Winkel eines Dreiecks 45 Grad und 60 Grad\nbetragen, wie groß ist der dritte Winkel?",
+        "correct": "75 Grad",
+        "wrong": [
+            "45 Grad",
+            "60 Grad",
+            "90 Grad"
+        ]
+    },
+    {
+        "question": "In einem rechtwinkligen Dreieck nennt man\ndie Seite gegenüber dem rechten Winkel:",
+        "correct": "Hypotenuse",
+        "wrong": [
+            "Ankathete",
+            "Gegenkathete",
+            "Rechte Seite"
+        ]
+    },
+    {
+        "question": "Was ist die Formel zur Berechnung\nder Fläche eines Kreises?",
+        "correct": "A = πr^2",
+        "wrong": [
+            "A = πr",
+            "A = 2πr",
+            "A = 2r^2"
+        ]
+    },
+    {
+        "question": "Wie groß ist das Volumen eines Quaders mit\nLänge 6 cm, Breite 4 cm und Höhe 5 cm?",
+        "correct": "120 cm³",
+        "wrong": [
+            "90 cm³",
+            "80 cm³",
+            "30 cm³"
+        ]
+    },
+    {
+        "question": "Der Satz des Pythagoras bezieht sich auf ein:",
+        "correct": "Rechtwinkliges Dreieck",
+        "wrong": [
+            "Ungleichseitiges Dreieck",
+            "Gleichseitiges Dreieck",
+            "Gleichschenkliges Dreieck"
+        ]
+    },
+    {
+        "question": "Was ist die Summe der Winkel in einem Quadrat?",
+        "correct": "360 Grad",
+        "wrong": [
+            "90 Grad",
+            "180 Grad",
+            "540 Grad"
+        ]
+    },
+    {
+        "question": "Der Sinussatz bezieht sich auf:",
+        "correct": "Winkel und Seiten eines Dreiecks",
+        "wrong": [
+            "Entsprechende Winkel ähnlicher Dreiecke",
+            "Verhältnisse der Seiten eines rechtwinkligen Dreiecks",
+            "Seiten eines Dreiecks mit seiner Höhe"
+        ]
+    },
+    {
+        "question": "In einem rechtwinkligen Dreieck\nnennt man die längste Seite:",
+        "correct": "Hypotenuse",
+        "wrong": [
+            "Durchmesser",
+            "Longitude",
+            "Latitude"
+        ]
+    }
+]

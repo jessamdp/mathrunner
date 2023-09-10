@@ -7,8 +7,8 @@ var gameSettings = {
     language: "en",
     // score calculation
     scorePerSecond: 300,
-    cherryBonus: 500,
-    gemBonus: 1000,
+    cherryBonus: 1000,
+    gemBonus: 5000,
     questionBonus: 20000,
     questionPenalty: 15000,
     trapPenalty: 10000,
@@ -24,7 +24,7 @@ var gameSettings = {
     propDensity: 1,
     enemySpawnFrequency: 2, // every Nth platform
     enemySpawnChance: 100, // in percent
-    itemSpawnChance: 50, // in percent, but only if no enemy
+    itemSpawnChance: 100, // in percent, but only if no enemy
     // misc
     fps: 10 // spritesheet fps
 }

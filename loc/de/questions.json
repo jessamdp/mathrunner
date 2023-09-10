@@ -1,92 +1,92 @@
 [
     {
-        "question": "Was ist die Summe der Winkel in einem Dreieck?",
-        "correct": "180 Grad",
+        "question": "Was ist die Definition der modernen Geometrie?",
+        "correct": "Die Untersuchung von Formen und Figuren mit fortgeschrittenen Methoden",
         "wrong": [
-            "90 Grad",
-            "270 Grad",
-            "360 Grad"
+            "Die Untersuchung von Formen und Figuren in antiken Zivilisationen",
+            "Die Untersuchung von Formen und Figuren in zeitgenössischer Kunst",
+            "Die Untersuchung von Formen und Figuren in der Literatur"
         ]
     },
     {
-        "question": "Ein Polygon mit acht Seiten heißt:",
-        "correct": "Oktagon",
+        "question": "Welche der folgenden Aussagen ist KEIN\ngrundlegendes Axiom in der euklidischen Geometrie?",
+        "correct": "Das Axiom der Symmetrie",
         "wrong": [
-            "Hexagon",
-            "Decagon",
-            "Pentagon"
+            "Das Parallelpostulat",
+            "Das Axiom der Transitivität",
+            "Das Axiom der Reflexivität"
         ]
     },
     {
-        "question": "Wenn zwei Winkel eines Dreiecks 45 Grad und 60 Grad\nbetragen, wie groß ist der dritte Winkel?",
-        "correct": "75 Grad",
+        "question": "Was ist ein \"Punkt\" in der euklidischen Geometrie?",
+        "correct": "Ein Ort ohne Dimension",
         "wrong": [
-            "45 Grad",
-            "60 Grad",
-            "90 Grad"
+            "Ein gerader Linienabschnitt",
+            "Eine zweidimensionale Form",
+            "Eine dreidimensionale Figur"
         ]
     },
     {
-        "question": "In einem rechtwinkligen Dreieck nennt man\ndie Seite gegenüber dem rechten Winkel:",
-        "correct": "Hypotenuse",
+        "question": "Was wird durch die Aussage \"Die Innenwinkelsumme\neines Dreiecks beträgt immer 180 Grad\" charakterisiert?",
+        "correct": "Euklidische Geometrie",
         "wrong": [
-            "Ankathete",
-            "Gegenkathete",
-            "Rechte Seite"
+            "Hyperbolische Geometrie",
+            "Elliptische Geometrie",
+            "Nicht-euklidische Geometrie"
         ]
     },
     {
-        "question": "Was ist die Formel zur Berechnung\nder Fläche eines Kreises?",
-        "correct": "A = πr^2",
+        "question": "Welches der folgenden ist ein Beispiel für eine\nnicht-euklidische Geometrie?",
+        "correct": "Sphärische Geometrie",
         "wrong": [
-            "A = πr",
-            "A = 2πr",
-            "A = 2r^2"
+            "Planare Geometrie",
+            "Lineare Geometrie",
+            "Kubische Geometrie"
         ]
     },
     {
-        "question": "Wie groß ist das Volumen eines Quaders mit\nLänge 6 cm, Breite 4 cm und Höhe 5 cm?",
-        "correct": "120 cm³",
+        "question": "\"Die Elemente\" von Euklid ist ein berühmtes Werk in der\nGeschichte der Geometrie. Welche Bedeutung hat es?",
+        "correct": "Es formalisierte den axiomatischen Ansatz in der Geometrie",
         "wrong": [
-            "90 cm³",
-            "80 cm³",
-            "30 cm³"
+            "Es führte die nicht-euklidische Geometrie ein",
+            "Es konzentrierte sich auf moderne geometrische Kunst",
+            "Es beschrieb die Geometrie der antiken Zivilisationen"
         ]
     },
     {
-        "question": "Der Satz des Pythagoras bezieht sich auf ein:",
-        "correct": "Rechtwinkliges Dreieck",
+        "question": "Worauf bezieht sich \"Kongruenz\" in der Geometrie?",
+        "correct": "Die Ähnlichkeit von Formen und Größen",
         "wrong": [
-            "Ungleichseitiges Dreieck",
-            "Gleichseitiges Dreieck",
-            "Gleichschenkliges Dreieck"
+            "Das Maß von Winkeln",
+            "Die Untersuchung von Kreisen",
+            "Die Untersuchung von geraden Linien"
         ]
     },
     {
-        "question": "Was ist die Summe der Winkel in einem Quadrat?",
-        "correct": "360 Grad",
+        "question": "Was sind geometrische Transformationen?",
+        "correct": "Veränderungen in den Eigenschaften geometrischer Formen",
         "wrong": [
-            "90 Grad",
-            "180 Grad",
-            "540 Grad"
+            "Die Untersuchung historischer geometrischer Figuren",
+            "Der Prozess der Schaffung neuer Axiome in der Geometrie",
+            "Die Untersuchung algebraischer Gleichungen"
         ]
     },
     {
-        "question": "Der Sinussatz bezieht sich auf:",
-        "correct": "Winkel und Seiten eines Dreiecks",
+        "question": "Was versteht man in der Geometrie\nunter dem Konzept der \"Symmetrie\"?",
+        "correct": "Eine bei Transformationen unverändert bleibende Eigenschaft von Figuren",
         "wrong": [
-            "Entsprechende Winkel ähnlicher Dreiecke",
-            "Verhältnisse der Seiten eines rechtwinkligen Dreiecks",
-            "Seiten eines Dreiecks mit seiner Höhe"
+            "Die Untersuchung von kongruenten Dreiecken",
+            "Die Untersuchung von Spiegelungen",
+            "Die Untersuchung von geometrischen Ungleichheiten"
         ]
     },
     {
-        "question": "In einem rechtwinkligen Dreieck\nnennt man die längste Seite:",
-        "correct": "Hypotenuse",
+        "question": "Inwiefern geht moderne Geometrie über\n die traditionelle euklidische Geometrie hinaus?",
+        "correct": "Sie umfasst die Untersuchung gekrümmter Räume und höherer Dimensionen",
         "wrong": [
-            "Durchmesser",
-            "Longitude",
-            "Latitude"
+            "Sie konzentriert sich auf die Untersuchung von Punkten und Linien",
+            "Sie befasst sich ausschließlich mit abstrakten algebraischen Konzepten",
+            "Sie erforscht die Geschichte geometrischer Entdeckungen"
         ]
     }
 ]

@@ -1,92 +1,92 @@
 [
     {
-        "question": "Ano ang kabuuang ng mga angulo sa isang tatsulok?",
-        "correct": "180 degrees",
+        "question": "Ano ang kahulugan ng modernong geometriya?",
+        "correct": "Ang pag-aaral ng mga hugis at anyo sa pamamagitan ng advanced na math",
         "wrong": [
-            "90 degrees",
-            "270 degrees",
-            "360 degrees"
+        "Ang pag-aaral ng mga hugis at anyo sa sinaunang sibilisasyon",
+        "Ang pag-aaral ng mga hugis at anyo sa makabagong sining",
+        "Ang pag-aaral ng mga hugis at anyo sa panitikan"
         ]
     },
     {
-        "question": "Ang isang polygon na may walong panig ay tinatawag na:",
-        "correct": "Octagon",
+        "question": "Alin sa mga sumusunod ay HINDI isang\npangunahing aksioma ng Euclidean geometriya?",
+        "correct": "Ang Aksioma ng Simetriya",
         "wrong": [
-            "Hexagon",
-            "Decagon",
-            "Pentagon"
+            "Ang Parallel Postulate",
+            "Ang Aksioma ng Transitividad",
+            "Ang Aksioma ng Reflexividad"
         ]
     },
     {
-        "question": "Kung dalawang anggulo ng isang tatsulok ay 45 degrees\nat 60 degrees, ilan ang sukat ng ikatlong anggulo?",
-        "correct": "75 degrees",
+        "question": "Sa Euclidean geometriya, ano ang ibig sabihin ng \"punto\"?",
+        "correct": "Isang lokasyon na walang dimensyon",
         "wrong": [
-            "45 degrees",
-            "60 degrees",
-            "90 degrees"
+            "Isang tuwid na bahagi ng linya",
+            "Isang dalawang-dimensyonal na hugis",
+            "Isang tatlong-dimensyonal na anyo"
         ]
     },
     {
-        "question": "Sa isang tatsulok na may karapatan, ang gilid\nlaban sa kanang anggulo ay tinatawag na:",
-        "correct": "Hypotenuse",
+        "question": "Anong geometriya ang nagpapahayag na \"Ang laki ng\nmga anggulo sa triangle ay palaging 180 degrees\"?",
+        "correct": "Euclidean geometriya",
         "wrong": [
-            "Adjacent side",
-            "Opposite side",
-            "Equal side"
+            "Hyperbolic geometriya",
+            "Elliptic geometriya",
+            "Non-Euclidean geometriya"
         ]
     },
     {
-        "question": "Ano ang formula para sa pagkuha ng lawak ng isang bilog?",
-        "correct": "A = πr^2",
+        "question": "Alin sa mga sumusunod ay isang halimbawa ng\nnon-Euclidean geometriya?",
+        "correct": "Spherical geometriya",
         "wrong": [
-            "A = πr",
-            "A = 2πr",
-            "A = 2r^2"
+            "Planar geometriya",
+            "Linear geometriya",
+            "Cubic geometriya"
         ]
     },
     {
-        "question": "Ano ang dami ng isang rektangular na prisma na may\nhaba na 6 cm, lapad na 4 cm, at taas na 5 cm?",
-        "correct": "120 cm³",
+        "question": "Ang \"Elements\" ni Euclid ay isang tanyag na akda sa\nkasaysayan ng geometriya. Ano ang kahalagahan nito?",
+        "correct": "Ito ay nagpormalisa ng axiomatic na paraan sa geometriya",
         "wrong": [
-            "90 cm³",
-            "80 cm³",
-            "30 cm³"
+            "Ito ay nagpakilala ng non-Euclidean geometriya",
+            "Ito ay nakatuon sa modernong sining ng geometriya",
+            "Ito ay naglalarawan ng geometriya ng sinaunang sibilisasyon"
         ]
     },
     {
-        "question": "Yung Pythagorean theorem ay nag-uugnay sa:",
-        "correct": "Yung right triangle",
+        "question": "Sa geometriya, ano ang tinutukoy ng \"kongruensya\"?",
+        "correct": "Ang pagkakapareho ng hugis at laki",
         "wrong": [
-            "Yung scalene triangle",
-            "Yung equilateral triangle",
-            "Yung isosceles triangle"
+            "Ang pagsusukat ng mga anggulo",
+            "Ang pag-aaral ng mga bilog",
+            "Ang pag-aaral ng mga tuwid na linya"
         ]
     },
     {
-        "question": "Ano ang kabuuang ng mga angulo sa isang parisukat?",
-        "correct": "Yung 360 degrees",
+        "question": "Ano ang mga geometriyang transformations?",
+        "correct": "Mga pagbabago sa mga katangian ng mga hugis sa geometriya",
         "wrong": [
-            "Yung 90 degrees",
-            "Yung 180 degrees",
-            "Yung 540 degrees"
+            "Ang pag-aaral ng mga makasaysayang hugis sa geometriya",
+            "Ang proseso ng paglikha ng mga bagong aksioma sa geometriya",
+            "Ang pag-aaral ng mga algebraic equations"
         ]
     },
     {
-        "question": "Yung Law of Sines ay ginagamit upang mag-ugnay:",
-        "correct": "Yung mga anggulo at gilid ng isang tatsulok",
+        "question": "Ano ang konsepto ng \"simetriya\" sa geometriya?",
+        "correct": "Katangian ng mga hugis na hindi nagbabago sa mga transformations",
         "wrong": [
-            "Yung mga katumbas na anggulo ng mga katulad na tatsulok",
-            "Yung mga ratio ng mga gilid ng isang karapatan tatsulok",
-            "Yung mga gilid ng isang tatsulok kasama ang kanyang altitude"
+            "Ang pag-aaral ng mga kongruenteng mga triangle",
+            "Ang pag-aaral ng mga salamin na refleksyon",
+            "Ang pag-aaral ng mga geometrikong hindi pagkakapareho"
         ]
     },
     {
-        "question": "Sa isang karapatan tatsulok, yung\npinakamahabang gilid ay tinatawag na:",
-        "correct": "Hypotenuse",
+        "question": "Paano lumalampas ang modernong geometriya\nsa tradisyonal na Euclidean geometriya?",
+        "correct": "Ito ay pag-aaral ng kurbadong espasyo at mas mataas na dimensyon",
         "wrong": [
-          "Diameter",
-          "Latitude",
-          "Longitude"
-      ]
-    }
+            "Ito ay nakatuon sa pag-aaral ng mga punto at linya lamang",
+            "Ito ay sumasaklaw lamang sa mga abstraktong konsepto ng algebra",
+            "Ito ay sumusuri sa kasaysayan ng mga geometrikong pag-alam"
+        ]
+    }      
 ]

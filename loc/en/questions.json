@@ -1,92 +1,92 @@
 [
     {
-        "question": "What is the sum of the angles in a triangle?",
-        "correct": "180 degrees",
+        "question": "What is the definition of modern geometry?",
+        "correct": "The study of shapes and figures using advanced mathematical techniques",
         "wrong": [
-            "90 degrees",
-            "270 degrees",
-            "360 degrees"
+            "The study of shapes and figures in ancient civilizations",
+            "The study of shapes and figures in contemporary art",
+            "The study of shapes and figures in literature"
         ]
     },
     {
-        "question": "A polygon with eight sides is called:",
-        "correct": "Octagon",
+        "question": "Which of the following is NOT a fundamental axiom\nof Euclidean geometry?",
+        "correct": "The Axiom of Symmetry",
         "wrong": [
-            "Hexagon",
-            "Decagon",
-            "Pentagon"
+            "The Parallel Postulate",
+            "The Axiom of Transitivity",
+            "The Axiom of Reflexivity"
         ]
     },
     {
-        "question": "If two angles of a triangle are 45 degrees and 60 degrees,\nwhat is the measure of the third angle?",
-        "correct": "75 degrees",
+        "question": "In Euclidean geometry, what is a \"point\"?",
+        "correct": "A dimensionless location",
         "wrong": [
-            "45 degrees",
-            "60 degrees",
-            "90 degrees"
+            "A straight line segment",
+            "A two-dimensional shape",
+            "A three-dimensional figure"
         ]
     },
     {
-        "question": "In a right triangle, the side\nopposite the right angle is called:",
-        "correct": "Hypotenuse",
+        "question": "Which geometry is characterized by the statement\n\"The sum of the angles in a triangle is always 180 degrees\"?",
+        "correct": "Euclidean geometry",
         "wrong": [
-            "Adjacent side",
-            "Opposite side",
-            "Equal side"
+            "Hyperbolic geometry",
+            "Elliptic geometry",
+            "Non-Euclidean geometry"
         ]
     },
     {
-        "question": "What is the formula to calculate the area of a circle?",
-        "correct": "A = πr^2",
+        "question": "Which of the following is an example of a\nnon-Euclidean geometry?",
+        "correct": "Spherical geometry",
         "wrong": [
-            "A = πr",
-            "A = 2πr",
-            "A = 2r^2"
+            "Planar geometry",
+            "Linear geometry",
+            "Cubic geometry"
         ]
     },
     {
-        "question": "What is the volume of a rectangular prism with\nlength 6 cm, width 4 cm, and height 5 cm?",
-        "correct": "120 cm³",
+        "question": "\"Elements\" by Euclid is a famous work in the\nhistory of geometry. What is its significance?",
+        "correct": "It formalized the axiomatic approach to geometry",
         "wrong": [
-            "90 cm³",
-            "80 cm³",
-            "30 cm³"
+            "It introduced non-Euclidean geometry",
+            "It focused on modern geometric art",
+            "It described the geometry of ancient civilizations"
         ]
     },
     {
-        "question": "The Pythagorean theorem relates to a:",
-        "correct": "Right triangle",
+        "question": "In geometry, what does \"congruence\" refer to?",
+        "correct": "The similarity of shapes and sizes",
         "wrong": [
-            "Scalene triangle",
-            "Equilateral triangle",
-            "Isosceles triangle"
+            "The measure of angles",
+            "The study of circles",
+            "The study of straight lines"
         ]
     },
     {
-        "question": "What is the sum of the angles in a square?",
-        "correct": "360 degrees",
+        "question": "What are geometric transformations?",
+        "correct": "Changes in the properties of geometric shapes",
         "wrong": [
-            "90 degrees",
-            "180 degrees",
-            "540 degrees"
+            "The study of historical geometric figures",
+            "The process of creating new axioms in geometry",
+            "The study of algebraic equations"
         ]
     },
     {
-        "question": "The Law of Sines is used to relate:",
-        "correct": "Angles and sides of a triangle",
+        "question": "What is the concept of \"symmetry\" in geometry?",
+        "correct": "A property of figures that remain unchanged under certain transformations",
         "wrong": [
-            "Corresponding angles of similar triangles",
-            "Ratios of the sides of a right triangle",
-            "Sides of a triangle with its altitude"
+            "The study of congruent triangles",
+            "The study of mirror reflections",
+            "The study of geometric inequalities"
         ]
     },
     {
-        "question": "In a right triangle, the longest side is called:",
-        "correct": "Hypotenuse",
+        "question": "How does modern geometry extend beyond\ntraditional Euclidean geometry?",
+        "correct": "It includes the study of curved spaces and higher dimensions",
         "wrong": [
-            "Diameter",
-            "Latitude",
-            "Longitude"
+            "It focuses on the study of points and lines only",
+            "It deals exclusively with abstract algebraic concepts",
+            "It explores the history of geometric discoveries"
         ]
     }
 ]

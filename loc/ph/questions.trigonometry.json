@@ -1,0 +1,92 @@
+[
+    {
+        "question": "Ano ang kabuuang ng mga angulo sa isang tatsulok?",
+        "correct": "180 degrees",
+        "wrong": [
+            "90 degrees",
+            "270 degrees",
+            "360 degrees"
+        ]
+    },
+    {
+        "question": "Ang isang polygon na may walong panig ay tinatawag na:",
+        "correct": "Octagon",
+        "wrong": [
+            "Hexagon",
+            "Decagon",
+            "Pentagon"
+        ]
+    },
+    {
+        "question": "Kung dalawang anggulo ng isang tatsulok ay 45 degrees\nat 60 degrees, ilan ang sukat ng ikatlong anggulo?",
+        "correct": "75 degrees",
+        "wrong": [
+            "45 degrees",
+            "60 degrees",
+            "90 degrees"
+        ]
+    },
+    {
+        "question": "Sa isang tatsulok na may karapatan, ang gilid\nlaban sa kanang anggulo ay tinatawag na:",
+        "correct": "Hypotenuse",
+        "wrong": [
+            "Adjacent side",
+            "Opposite side",
+            "Equal side"
+        ]
+    },
+    {
+        "question": "Ano ang formula para sa pagkuha ng lawak ng isang bilog?",
+        "correct": "A = πr^2",
+        "wrong": [
+            "A = πr",
+            "A = 2πr",
+            "A = 2r^2"
+        ]
+    },
+    {
+        "question": "Ano ang dami ng isang rektangular na prisma na may\nhaba na 6 cm, lapad na 4 cm, at taas na 5 cm?",
+        "correct": "120 cm³",
+        "wrong": [
+            "90 cm³",
+            "80 cm³",
+            "30 cm³"
+        ]
+    },
+    {
+        "question": "Yung Pythagorean theorem ay nag-uugnay sa:",
+        "correct": "Yung right triangle",
+        "wrong": [
+            "Yung scalene triangle",
+            "Yung equilateral triangle",
+            "Yung isosceles triangle"
+        ]
+    },
+    {
+        "question": "Ano ang kabuuang ng mga angulo sa isang parisukat?",
+        "correct": "Yung 360 degrees",
+        "wrong": [
+            "Yung 90 degrees",
+            "Yung 180 degrees",
+            "Yung 540 degrees"
+        ]
+    },
+    {
+        "question": "Yung Law of Sines ay ginagamit upang mag-ugnay:",
+        "correct": "Yung mga anggulo at gilid ng isang tatsulok",
+        "wrong": [
+            "Yung mga katumbas na anggulo ng mga katulad na tatsulok",
+            "Yung mga ratio ng mga gilid ng isang karapatan tatsulok",
+            "Yung mga gilid ng isang tatsulok kasama ang kanyang altitude"
+        ]
+    },
+    {
+        "question": "Sa isang karapatan tatsulok, yung\npinakamahabang gilid ay tinatawag na:",
+        "correct": "Hypotenuse",
+        "wrong": [
+          "Diameter",
+          "Latitude",
+          "Longitude"
+      ]
+    }
+]
